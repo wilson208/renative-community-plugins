@@ -1,0 +1,219 @@
+{
+  "pluginTemplates": {
+    "@react-navigation": {
+      "npm": {
+        "@react-navigation/core": "6.1.1",
+        "@react-navigation/drawer": "6.3.1",
+        "@react-navigation/bottom-tabs": "6.2.0",
+        "@react-navigation/material-bottom-tabs": "6.1.1",
+        "@react-navigation/native": "6.0.8",
+        "@react-navigation/stack": "6.1.1",
+        "@react-navigation/routers": "6.1.0",
+        "@react-navigation/material-top-tabs": "6.1.1",
+        "@react-navigation/web": "1.0.0-alpha.9"
+      },
+      "pluginDependencies": {
+        "react-native-screens": "source:community",
+        "react-native-safe-area-context": "source:community",
+        "@react-native-community/masked-view": "source:community"
+      }
+    },
+    "react-native-screens": {
+      "version": "3.13.1",
+      "ios": {
+        "podName": "RNScreens"
+      },
+      "tvos": {
+        "podName": "RNScreens"
+      },
+      "android": {
+        "package": "com.swmansion.rnscreens.RNScreensPackage"
+      },
+      "androidtv": {
+        "package": "com.swmansion.rnscreens.RNScreensPackage"
+      },
+      "firetv": {
+        "package": "com.swmansion.rnscreens.RNScreensPackage"
+      },
+      "webpack": {
+        "modulePaths": true
+      }
+    },
+    "react-native-safe-area-context": {
+      "version": "4.1.2",
+      "android": {
+        "package": "com.th3rdwave.safeareacontext.SafeAreaContextPackage"
+      },
+      "androidtv": {
+        "package": "com.th3rdwave.safeareacontext.SafeAreaContextPackage"
+      },
+      "firetv": {
+        "package": "com.th3rdwave.safeareacontext.SafeAreaContextPackage"
+      },
+      "androidwear": {
+        "package": "com.th3rdwave.safeareacontext.SafeAreaContextPackage"
+      },
+      "ios": {
+        "path": "node_modules/react-native-safe-area-context",
+        "podName": "react-native-safe-area-context"
+      },
+      "tvos": {
+        "path": "node_modules/react-native-safe-area-context",
+        "podName": "react-native-safe-area-context"
+      }
+    },
+    "@react-native-community/masked-view": {
+      "version": "0.1.11",
+      "ios": {
+        "path": "node_modules/@react-native-community/masked-view",
+        "podName": "RNCMaskedView"
+      },
+      "tvos": {
+        "path": "node_modules/@react-native-community/masked-view",
+        "podName": "RNCMaskedView"
+      },
+      "android": {
+        "path": "node_modules/@react-native-community/masked-view/android",
+        "projectName": "react-native-community-masked-view",
+        "package": "org.reactnative.maskedview.RNCMaskedViewPackage"
+      },
+      "androidtv": {
+        "path": "node_modules/@react-native-community/masked-view/android",
+        "projectName": "react-native-community-masked-view",
+        "package": "org.reactnative.maskedview.RNCMaskedViewPackage"
+      },
+      "firetv": {
+        "path": "node_modules/@react-native-community/masked-view/android",
+        "projectName": "react-native-community-masked-view",
+        "package": "org.reactnative.maskedview.RNCMaskedViewPackage"
+      }
+    },
+    "native-base": {
+      "version": "3.3.1",
+      "pluginDependencies": {
+        "@react-aria/focus":  "source:community",
+        "@react-aria/utils": "source:community",
+        "@react-aria/visually-hidden":  "source:community",
+        "@react-native-aria/button": "source:community",
+        "@react-native-aria/checkbox":  "source:community",
+        "@react-native-aria/combobox": "source:community",
+        "@react-native-aria/focus":  "source:community",
+        "@react-native-aria/interactions": "source:community",
+        "@react-native-aria/listbox":  "source:community",
+        "@react-native-aria/overlays": "source:community",
+        "@react-native-aria/radio":  "source:community",
+        "@react-native-aria/slider": "source:community",
+        "@react-native-aria/tabs":  "source:community",
+        "@react-native-aria/utils": "source:community"
+      },
+      "webpack": {
+        "modulePaths": true
+      }
+    },
+    "@react-aria/focus": {
+      "version": "3.2.3",
+      "webpack": {
+        "modulePaths": true
+      }
+    },
+    "@react-aria/utils": {
+      "version": "3.6.0",
+      "webpack": {
+        "modulePaths": true
+      }
+    },
+    "@react-aria/visually-hidden": {
+      "version": "3.2.1",
+      "webpack": {
+        "modulePaths": true
+      }
+    },
+    "@react-native-aria/button": {
+      "version": "0.2.4",
+      "webpack": {
+        "modulePaths": true
+      }
+    },
+    "@react-native-aria/checkbox": {
+      "version": "0.2.2",
+      "webpack": {
+        "modulePaths": true
+      }
+    },
+    "@react-native-aria/combobox": {
+      "version": "0.2.4-alpha.0",
+      "webpack": {
+        "modulePaths": true
+      }
+    },
+    "@react-native-aria/focus": {
+      "version": "0.2.4",
+      "webpack": {
+        "modulePaths": true
+      }
+    },
+    "@react-native-aria/interactions": {
+      "version": "0.2.2",
+      "webpack": {
+        "modulePaths": true
+      }
+    },
+    "@react-native-aria/listbox": {
+      "version": "0.2.4-alpha.3",
+      "webpack": {
+        "modulePaths": true
+      }
+    },
+    "@react-native-aria/overlays": {
+      "version": "0.3.3-rc.0",
+      "webpack": {
+        "modulePaths": true
+      }
+    },
+    "@react-native-aria/radio": {
+      "version": "0.2.4",
+      "webpack": {
+        "modulePaths": true
+      }
+    },
+    "@react-native-aria/slider": {
+      "version": "0.2.5-alpha.1",
+      "webpack": {
+        "modulePaths": true
+      }
+    },
+    "@react-native-aria/tabs": {
+      "version": "0.2.7",
+      "webpack": {
+        "modulePaths": true
+      }
+    },
+    "@react-native-aria/utils": {
+      "version": "0.2.8",
+      "webpack": {
+        "modulePaths": true
+      }
+    },
+    "react-native-fast-image": {
+      "version": "8.5.11",
+      "ios": {
+        "podName": "react-native-fast-image"
+      },
+      "tvos": {
+        "podName": "react-native-fast-image"
+      },
+      "android": {
+        "package": "com.dylanvann.fastimage.FastImageViewPackage"
+      },
+      "androidtv": {
+        "package": "com.dylanvann.fastimage.FastImageViewPackage"
+      },
+      "firetv": {
+        "package": "com.dylanvann.fastimage.FastImageViewPackage"
+      },
+      "webpack": {
+        "modulePaths": true
+      }
+    }
+  }
+}
