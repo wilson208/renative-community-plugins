@@ -30,6 +30,6 @@
   },
   "homepage": "https://github.com/wilson208/renative-community-plugins#readme",
   "devDependencies": {
-    "changelog": "^1.4.2"
+    "generate-changelog": "^1.8.0"
   }
 }
