@@ -1,3 +1,9 @@
+#### 1.0.1 (2022-03-05)
+
+##### New Features
+
+*  Lint before and auto-publish after npm version ([a23ff273](https://github.com/wilson208/renative-community-plugins/commit/a23ff27365ef80f09f7fe0575cb1e741ba9ab880))
+
 ## 1.0.0 (2022-03-05)
 
 ##### Chores
