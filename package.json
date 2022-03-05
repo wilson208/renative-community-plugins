@@ -1,7 +1,7 @@
 {
   "name": "renative-community-plugins",
   "version": "0.0.0",
-  "description": "",
+  "description": "A set of community plugins for Renative development",
   "main": "renative.plugins.json",
   "files": [
     "pluginTemplates"
