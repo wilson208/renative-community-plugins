@@ -1,3 +1,9 @@
+#### 1.0.2 (2022-03-05)
+
+##### Documentation Changes
+
+*  Add usage instructions, plugin list and npm version badge to README ([4a34e3a7](https://github.com/wilson208/renative-community-plugins/commit/4a34e3a7d29343851f5f00e0a924b802a37c94e7))
+
 #### 1.0.1 (2022-03-05)
 
 ##### New Features
